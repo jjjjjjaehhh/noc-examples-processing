@@ -41,7 +41,7 @@ class Vehicle {
     acceleration.mult(0);
     
         history.add(position.get());
-    if (history.size() > 500) {
+    if (history.size() > 750) {
       history.remove(0);
     }
   }
